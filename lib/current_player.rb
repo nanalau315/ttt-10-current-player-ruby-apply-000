@@ -10,18 +10,18 @@ def turn_count(board)
   turn_counter
 end
 
-def current_player(board)
+#def current_player(board)
   
-  if turn_count(board) % 2 == 0
-    puts "X"
-    "X"
+#  if turn_count(board) % 2 == 0
+ #   puts "X"
+#    "X"
   
-  else puts "O"
-    "O"
+ # else puts "O"
+ #   "O"
   
- end
+# end
   
-end
+#end
 
 def current_player(board)
   
